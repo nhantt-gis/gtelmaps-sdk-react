@@ -1,0 +1,41 @@
+{
+  "name": "@gis/gtelmaps-sdk-react",
+  "description": "React components for GTEL Maps GL JS",
+  "version": "1.0.0-alpha.2",
+  "keywords": [
+    "gtelmaps",
+    "gtelmaps-gl",
+    "react",
+    "react gtelmaps"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gtelmaps/gtelmaps-sdk-react.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@gis/gtelmaps-sdk-js": "npm:@gis/gtelmaps-sdk-js@1.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "@gis/gtelmaps-gl-style-spec": "npm:@gis/gtelmaps-gl-style-spec@1.0.0-alpha.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.3.0",
+    "react-dom": ">=16.3.0"
+  }
+}

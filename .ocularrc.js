@@ -24,7 +24,8 @@ export default {
     size: [
       'test/size/mapbox-legacy.js',
       'test/size/maplibre.js',
-      'test/size/mapbox.js'
+      'test/size/mapbox.js',
+      'test/size/gtelmaps.js'
     ]
   }
 };

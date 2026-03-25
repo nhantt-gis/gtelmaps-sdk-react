@@ -16,10 +16,12 @@
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
       "react-map-gl": ["modules/main/src"],
+      "@gis/gtelmaps-map-react": ["modules/react-gtelmaps/src"],
       "@vis.gl/react-mapbox": ["modules/react-mapbox/src"],
       "@vis.gl/react-maplibre": ["modules/react-maplibre/src"]
     },
